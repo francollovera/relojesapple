@@ -1,0 +1,632 @@
+/*@import url(); puedo importar fuente de letra*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rosa {
+    background-color: #d0ac76;
+    width: 1519px;
+    
+    height: 540px;
+    box-shadow: 10px 10px 50px black;
+}
+
+.central {
+    width: 350px;
+    position: relative;
+    top: 150px;
+    left: 540px;
+    z-index: 1;
+    display: flex;
+
+}
+
+.central>img {
+    width: 450px;
+}
+
+.txtcentral {
+    font-size: 120px;
+    font-weight: 10;
+    letter-spacing: 14px;
+    position: relative;
+    left: 370px;
+    top: -300px;
+
+
+
+}
+
+.logoblanco {
+    position: relative;
+    top: -450px;
+    display: flex;
+    justify-content: center;
+}
+
+.logoblanco>img {
+    width: 50px;
+}
+
+.blanco {
+    background-color: whitesmoke;
+    position: relative;
+    left: 1050px;
+    top: -400px;
+    width: 250px;
+    height: 150px;
+
+    overflow: hidden;
+    box-shadow: 2px 2px 12px black;
+}
+
+.costado>img {
+    width: 170px;
+    opacity: 90%;
+}
+
+.costado {
+
+    position: relative;
+    left: 155px;
+    top: -64px;
+}
+
+.primero {
+    opacity: 80%;
+    position: relative;
+    font-style: italic;
+    top: 35px;
+    left: 70px;
+    font-size: 20px;
+
+}
+
+.segundo {
+    position: relative;
+    top: 55px;
+    left: 25px;
+    font-size: 15px;
+    opacity: 50%;
+
+}
+
+.azul {
+
+    background-color: rgba(19, 33, 71, 0.975);
+    width: 100%;
+    width: 1519px;
+    
+    height: 1000px;
+    position: relative;
+
+    box-shadow: 1px 1px 10px black;
+}
+
+.textocentral {
+    color: rgb(214, 201, 201);
+    font-weight: 100;
+    position: relative;
+    left: 645px;
+    top: 160px;
+    font-size: 30px;
+
+}
+
+.textoh2 {
+    color: rgb(214, 201, 201);
+    font-weight: 10;
+    position: relative;
+    left: 460px;
+    top: 200px;
+    font-size: 10px;
+}
+
+.siri>img {
+    width: 300px;
+}
+
+.siri {
+
+    position: relative;
+    top: 250px;
+    left: 640px;
+}
+
+.pantalla>img {
+    width: 300px;
+    opacity: 70%;
+}
+
+.pantalla {
+    position: relative;
+    top: 240px;
+    left: 535px;
+}
+
+.letra {
+    color: whitesmoke;
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    left: 810px;
+}
+
+.muneca>img {
+    width: 1519px;
+    position: relative;
+    top: 00px;
+
+}
+
+.muneca {
+    width: 1519px;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 1px 10px black;
+}
+
+.celesteletra {
+    color: whitesmoke;
+    position: relative;
+    top: -800px;
+    left: 100px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.cletra {
+    color: whitesmoke;
+    position: relative;
+    top: -790px;
+    left: 113px;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.es {
+    color: whitesmoke;
+    position: relative;
+    top: -350px;
+    left: 1200px;
+    font-size: 18px;
+
+}
+
+.fotos {
+    position: relative;
+    top: -122px;
+    width: 1519px;
+    
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle at 50% 34.84%, #4a2b68 0, #31185a 25%, #11044b 50%, #00003d 75%, #000031 100%);
+    box-shadow: 2px 2px 10px black;
+}
+
+.fotos>img {
+    width: 350px;
+}
+
+.claro {
+    width: 1517px;
+    height: 840px;
+    background-color: whitesmoke;
+    position: relative;
+    top: -150px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.claro>img {
+    width: 400px;
+    position: relative;
+    top: 170px;
+    left: 320px;
+}
+
+.ad {
+    position: relative;
+    left: 800px;
+    top: -140px;
+    opacity: 80%;
+    font-style: italic;
+}
+
+.blue {
+    box-shadow: 1px 1px 10px black;
+}
+
+.caja1 {
+
+    width: 130px;
+    height: 55px;
+    position: relative;
+    left: 800px;
+    top: -100px;
+    opacity: 50%;
+    cursor: pointer;
+
+}
+
+.caja2 {
+
+    width: 130px;
+    height: 55px;
+    position: relative;
+    left: 810px;
+    top: -100px;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.caja3 {
+
+    width: 130px;
+    height: 55px;
+    position: relative;
+    left: 820px;
+    top: -100px;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+
+.precio {
+    position: relative;
+    left: 805px;
+    top: -55px;
+}
+
+.comp {
+    border: transparent;
+    border-radius: 60px;
+    width: 90px;
+    height: 50px;
+    background-color: #5555e0;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 950px;
+    top: -90px;
+}
+
+.comp:hover {
+    background-color: #8b8bd3;
+}
+
+.blue {
+    width: 1517px;
+    height: 840px;
+    background-color: #5151d8;
+    position: relative;
+    top: -200px;
+    overflow: hidden;
+}
+
+.blue>img {
+    width: 450px;
+    position: relative;
+    top: 180px;
+    left: 1200px;
+}
+
+.tam {
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 60px;
+    position: relative;
+    top: -370px;
+    left: 200px;
+}
+
+.dura {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 15px;
+    top: -250px;
+    left: 210px;
+}
+
+.cuar {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 55px;
+    top: -240px;
+    left: 208px;
+
+}
+
+.re {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 15px;
+    top: -227px;
+    left: 210px;
+}
+
+.size {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 15px;
+    top: -150px;
+    left: 208px;
+}
+
+.tre {
+
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 55px;
+    top: -140px;
+    left: 208px;
+
+}
+
+.car {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 15px;
+    top: -130px;
+    left: 208px;
+}
+
+.med {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 15px;
+    top: -447px;
+    left: 568px;
+}
+
+.cien {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 55px;
+    top: -435px;
+    left: 560px;
+}
+
+.largo {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 15px;
+    top: -423px;
+    left: 570px;
+}
+
+.os {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 15px;
+    top: -348px;
+    left: 568px;
+}
+
+.so {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 55px;
+    top: -340px;
+    left: 565px;
+
+}
+
+.ver {
+    color: whitesmoke;
+    font-weight: 100;
+    position: relative;
+    font-size: 15px;
+    top: -330px;
+    left: 570px;
+}
+
+.plateado {
+    width: 1517px;
+    height: 1000px;
+    box-shadow: 1px 1px 10px black;
+    position: relative;
+    top: -200px;
+}
+
+.plateado>img.rplateado {
+    width: 500px;
+    position: relative;
+    left: 200px;
+    top: 300px;
+
+}
+
+.tplateado {
+    position: relative;
+    left: 1000px;
+    top: -200px;
+    font-size: 50px;
+}
+
+.hplateado {
+    position: relative;
+    left: 1000px;
+    top: -150px;
+    font-size: 15px;
+
+    opacity: 50%;
+}
+
+.plateado>img.right {
+    width: 300px;
+    position: relative;
+    left: 1003px;
+    top: -50px;
+    opacity: 70%;
+    box-shadow: 1px 1px 10px black;
+}
+
+.grey {
+    width: 1517px;
+    height: 1000px;
+    background-color: grey;
+    position: relative;
+    top: -200px;
+    box-shadow: 1px 1px 10px black;
+    overflow: hidden;
+}
+
+.webp {
+    width: 500px;
+    position: relative;
+    left: -100px;
+    top: 270px;
+    opacity: 60%;
+}
+
+.medio {
+    border: 4px color black;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+
+    position: relative;
+    left: 600px;
+    top: -200px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 50px black;
+}
+
+.imagcentro {
+    position: relative;
+    top: px;
+    right: 120px;
+    width: 500px;
+}
+
+.lateral {
+    width: 500px;
+    position: relative;
+    left: 1090px;
+    top: -700px;
+    opacity: 60%;
+}
+
+.accesorios {
+    position: relative;
+    width: 1519px;
+    
+    top: -200px;
+    box-shadow: 10px 0px 50px black;
+}
+
+.entrena {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.detalles {
+    font-size: 15px;
+    opacity: 50%;
+    position: relative;
+    top: 60px;
+    left: 45px;
+}
+
+.compra {
+    font-size: 50px;
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+
+.macc {
+    font-size: 15px;
+    position: relative;
+    top: 70px;
+    left: 250px;
+    opacity: 50%;
+}
+
+.imagmostrador {
+    position: relative;
+    top: 150px;
+    left: 100px;
+    z-index: 1;
+}
+
+.carga {
+    position: relative;
+    left: 1100px;
+    top: -430px;
+}
+
+.mostrador {
+    font-size: 15px;
+    position: relative;
+    top: -300px;
+    left: 100px;
+    opacity: 50%;
+}
+
+.carcar {
+    font-size: 15px;
+    position: relative;
+    top: -630px;
+    left: 900px;
+    opacity: 50%;
+}
+
+.gdos {
+    width: 1517px;
+    height: 800px;
+    background-color: rgb(211, 206, 206);
+    position: relative;
+    top: -500px;
+    box-shadow: 10px 0px 50px black;
+}
+
+.imgdos {
+    width: 400px;
+    position: relative;
+    top: 300px;
+    left: 550px;
+
+}
+
+.txtgdos {
+    font-size: 15px;
+    position: relative;
+    font-size: 40px;
+    top: -240px;
+    opacity: 80%;
+    left: 570px;
+    font-style: italic;
+
+}
+
+.alcance {
+
+    position: relative;
+    font-size: 30px;
+    top: -200px;
+    opacity: 80%;
+    left: 670px;
+    font-style: italic;
+
+}
