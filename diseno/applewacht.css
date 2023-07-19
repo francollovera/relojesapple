@@ -3,8 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    max-width: 100%;
+    
 }
-
+.contenedor{
+    max-width: 220vh;
+    overflow: hidden;
+    max-height: 1080vh;
+}
 .rosa {
     background-color: #d0ac76;
     width: 1519px;
@@ -18,8 +25,9 @@
     position: relative;
     top: 150px;
     left: 540px;
-    z-index: 1;
+    z-index: 0;
     display: flex;
+    
 
 }
 
@@ -57,7 +65,7 @@
     top: -400px;
     width: 250px;
     height: 150px;
-
+margin: 0;
     overflow: hidden;
     box-shadow: 2px 2px 12px black;
 }
@@ -511,9 +519,9 @@
 
 .imagcentro {
     position: relative;
-    top: px;
-    right: 120px;
-    width: 500px;
+    
+    right: 0px;
+    width: 700px;
 }
 
 .lateral {
@@ -629,4 +637,14 @@
     left: 670px;
     font-style: italic;
 
+}
+@media screen and (max-width:1300) {
+    .txtcentral {
+        font-size: 120px;
+        font-weight: 10;
+        letter-spacing: 14px;
+        position: relative;
+        left: 220px;
+        top: -300px;
+    }
 }
